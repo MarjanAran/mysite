@@ -1,0 +1,51 @@
+body {
+background-image: url("green.jpg");
+font-family: cursive ;
+}
+
+
+
+#gallery {
+text-align: center;
+}
+#contact-info {
+float: left;
+width: 33%
+}
+#spacecat{
+float: left;
+width: 33%   
+}
+#form {
+float: right;
+}
+
+footer {
+    align-items: center;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+}
+footer .nav-item{
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+footer i:hover {
+    color: #ff3399;
+}
+.copy {
+    
+}
+.copyright {
+    color: #333;
+    outline: none;
+    text-decoration: underline;
+}
