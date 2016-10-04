@@ -1,24 +1,36 @@
 body {
-background-image: url("green.jpg");
-font-family: cursive ;
+background-image: url("blue.jpg");
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-brand h2 {
+    margin: 0;
+    max-width: 300px;
+    color: #fff;
+    text-align: center;
+}
+.header {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.navbar-header {
+    background-color: #5c7274;
 }
 
 
 
-#gallery {
-text-align: center;
-}
-#contact-info {
-float: left;
-width: 33%
-}
-#spacecat{
-float: left;
-width: 33%   
-}
-#form {
-float: right;
-}
+
 
 footer {
     align-items: center;
